@@ -21,7 +21,7 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## C program that receives a message from message queue and display them
-READER C
+## READER C
 ```
 // C Program for Message Queue (Reader Process)
 #include <stdio.h>
@@ -50,7 +50,7 @@ msgctl(msgid, IPC_RMID, NULL);
 return 0;
 }
 ```
-WRITER C
+## WRITER C
 ```
 // C Program for Message Queue (Writer Process) 
 #include <stdio.h>
